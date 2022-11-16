@@ -36,7 +36,7 @@ func calculate_move_velocity(
 	return out
 
 func calculate_stomp_velocity(linear_velocity: Vector2, impulse: float) -> Vector2:
-	var out = _velocity
+	var out = linear_velocity
 	out.y = -impulse
 	return out
 
